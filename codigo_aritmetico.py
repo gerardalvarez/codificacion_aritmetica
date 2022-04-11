@@ -7,10 +7,6 @@ class ArithmeticEncoding:
     """
 
     def __init__(self, frequency_table, save_stages=False):
-        """
-        frequency_table: Frequency table as a dictionary where key is the symbol and value is the frequency.
-        save_stages: If True, then the intervals of each stage are saved in a list. Note that setting save_stages=True may cause memory overflow if the message is large
-        """
 
         self.save_stages = save_stages
         if(save_stages == True):
